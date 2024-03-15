@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "start": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
-    "gulp": "^4.0.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
