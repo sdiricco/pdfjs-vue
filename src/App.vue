@@ -6,7 +6,7 @@
 import { onMounted, ref } from 'vue';
 const viewerContainer = ref<any>(null)
 onMounted(() => {
-  const viewerHtmlPath = 'pdfjs-4.0.379-legacy-dist/web/viewer.html'; // Assicurati di specificare il percorso corretto
+  const viewerHtmlPath = 'generic-legacy/web/viewer.html'; // Assicurati di specificare il percorso corretto
   const iframe = document.createElement('iframe');
   iframe.src = viewerHtmlPath;
   iframe.style.width = '100%';
