@@ -4314,11 +4314,11 @@ dialog :link{
   color:#666;
   padding:16px;
   font-family:Arial, Helvetica, sans-serif;
-  border:2px solid var(--toolbar-border-color);
+  border:2px solid #666;
   border-style:dashed;
   border-radius:16px;
-  height:90%;
-  width:90%;
+  height:60vh;
+  width:60vw;
   display:flex;
   align-items:center;
   justify-content:center;
