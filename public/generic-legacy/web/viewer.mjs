@@ -6606,6 +6606,8 @@ const PDFViewerApplication = {
     await Promise.all(promises);
   },
   async open(args) {
+    const elem = document.getElementById('emptyViewerConainer');
+    elem.style.display = 'none';
     if (this.pdfLoadingTask) {
       await this.close();
     }
